@@ -1,23 +1,31 @@
 {
-  "name": "cypress-test-tiny",
+  "name": "cypress example pdf download project",
   "version": "1.0.0",
   "description": "Small project for quickly testing Cypress.io test runner",
   "scripts": {
-    "cypress:run": "cypress run",
-    "cypress:open": "cypress open",
-    "cypress:verify": "cypress verify",
-    "cypress:version": "cypress version",
-    "cypress:info": "cypress info",
-    "cypress:cache:list": "cypress cache list",
-    "list-videos": "ls -l cypress/videos"
+    "cy:run": "cypress run",
+    "cy:open": "cypress open"
   },
   "keywords": [],
-  "author": "Cypress-io",
+  "author": "CJLeeApps",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^29.5.5"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/cypress-io/cypress-test-tiny.git"
+  },
+  "dependencies": {
+    "chai": "^4.3.8",
+    "cypress": "^13.2.0",
+    "cypress-mochawesome-reporter": "^3.6.0",
+    "cypress-multi-reporters": "^1.6.3",
+    "cypress-network-idle": "^1.14.2",
+    "dotenv-flow": "^3.3.0",
+    "esbuild-plugin-polyfill-node": "^0.3.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-report-generator": "^6.2.0",
+    "typescript": "^5.2.2"
   }
 }

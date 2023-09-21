@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "types": [
+            "cypress",
+            "node",
+            "@cypress/grep/src"
+        ],
+        "strict": true,
+        "allowSyntheticDefaultImports": true,
+    },
+    "include": [
+        "**/*.ts"
+    ],
+}
